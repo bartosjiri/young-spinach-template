@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+    <title>Search | Young Spinach</title>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,300,400,600,700|Dosis:300,400,700">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="./img/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./img/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href=".img/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./imgs/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./img/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./img/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/icons/favicon-16x16.png">
+    <link rel="manifest" href="./img/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./img/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <main class="wrapper" id="wrapper">
+
+        <!-- HEADER (start) -->
+        <div class="header" id="header">
+            <div class="header-container">
+                <div class="header-logo">
+                    <a href="index.html" class="header-logo-noleaf" id="logo1">
+                        <div class="header-logo-leaf-border" id="logo2">
+                            <div class="header-logo-leaf" id="logo3"></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="header-nav">
+                    <ul>
+                        <li><a class="header-nav-link" href="index.html">Latest</a></li>
+                        <li><a class="header-nav-link" href="categories.html">Categories</a></li>
+                        <li><a class="header-nav-link" href="projects.html">Projects</a></li>
+                        <li><a class="header-nav-link" href="about.html">About</a></li>
+                        <li id="searchicon">
+                            <svg class="icon-search icon-search-active" id="searchsvg" viewBox="0 0 24 24">
+                                <path d="M10 1q1.828 0 3.496 0.715t2.871 1.918 1.918 2.871 0.715 3.496q0 1.57-0.512 3.008t-1.457 2.609l5.68 5.672q0.289 0.289 0.289 0.711 0 0.43-0.285 0.715t-0.715 0.285q-0.422 0-0.711-0.289l-5.672-5.68q-1.172 0.945-2.609 1.457t-3.008 0.512q-1.828 0-3.496-0.715t-2.871-1.918-1.918-2.871-0.715-3.496 0.715-3.496 1.918-2.871 2.871-1.918 3.496-0.715zM10 3q-1.422 0-2.719 0.555t-2.234 1.492-1.492 2.234-0.555 2.719 0.555 2.719 1.492 2.234 2.234 1.492 2.719 0.555 2.719-0.555 2.234-1.492 1.492-2.234 0.555-2.719-0.555-2.719-1.492-2.234-2.234-1.492-2.719-0.555z"></path>
+                            </svg>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="searchbar" id="searchbar">
+            <form role="search" method="get" class="searchform searchbar-container" action="search.html">
+                <input class="searchbar-input" id="searchinput" placeholder="Type in your search term(s) and press Enter" value="" name="s">
+                <button type="submit" class="searchbar-button" alt="Submit search query">
+                    <svg class="icon-enter-button" viewBox="0 0 65 64">
+                        <path d="M7,0.36218 C3.710595,0.36218 1,3.07277 1,6.36218 L1,21.36218 C0.989809722,22.0834451 1.36876318,22.7543253 1.99175405,23.1179316 C2.61474492,23.4815379 3.38525508,23.4815379 4.00824595,23.1179316 C4.63123682,22.7543253 5.01019028,22.0834451 5,21.36218 L5,6.36218 C5,5.21959 5.857407,4.36218 7,4.36218 L59,4.36218 C60.142593,4.36218 61,5.21959 61,6.36218 L61,58.36218 C61,59.50478 60.142593,60.36218 59,60.36218 L7,60.36218 C5.857407,60.36218 5,59.50478 5,58.36218 L5,43.36218 C5.01019028,42.6409149 4.63123682,41.9700347 4.00824595,41.6064284 C3.38525508,41.2428221 2.61474492,41.2428221 1.99175405,41.6064284 C1.36876318,41.9700347 0.989809722,42.6409149 1,43.36218 L1,58.36218 C1,61.65158 3.710595,64.36218 7,64.36218 L59,64.36218 C62.289405,64.36218 65,61.65158 65,58.36218 L65,6.36218 C65,3.07277 62.289405,0.36218 59,0.36218 L7,0.36218 Z M30.84375,15.33093 C30.0700659,15.3836349 29.3965657,15.8787916 29.1154969,16.6015399 C28.8344281,17.3242882 28.9964471,18.1443691 29.53125,18.70593 L40.375,30.36218 L3,30.36218 C2.93753436,30.359249 2.87496564,30.359249 2.8125,30.36218 C2.09786685,30.3955352 1.4553308,30.8076582 1.12698541,31.44327 C0.798640021,32.0788819 0.834382644,32.8413911 1.22074624,33.443501 C1.60710983,34.0456109 2.28538025,34.395821 3,34.36218 L40.375,34.36218 L29.53125,45.98718 C28.7860043,46.7990699 28.8373981,48.0606855 29.6462119,48.8092685 C30.4550258,49.5578516 31.7168423,49.511654 32.46875,48.70593 L46.46875,33.70593 C47.1793151,32.9389635 47.1793151,31.7541465 46.46875,30.98718 L32.46875,15.98718 C32.0568432,15.5301477 31.457519,15.2881129 30.84375,15.33093 L30.84375,15.33093 Z" id="Shape"></path>
+                    </svg>
+                </button>
+            </form>
+        </div>
+        <div class="header-mobile">
+            <div class="header-mobile-bar">
+                <div class="header-mobile-logo">
+                    <a href="index.html">
+                        <img class="header-logo-prop" src="./img/logo/logo-color-text-small.png" alt="Young Spinach Logo"></img>
+                    </a>
+                </div>
+                <div class="header-mobile-button-area">
+                    <button class="header-mobile-button header-mobile-button-x">
+                        <span>☰</span>
+                    </button>
+                </div>
+            </div>
+            <div class="header-mobile-nav" id="header-mobile-activation">
+                <ul>
+                    <li><a href="index.html">Latest</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li>
+                        <a href="search-mobile.html">
+                            <svg class="icon-search" viewBox="0 0 24 24">
+                                <path d="M10 1q1.828 0 3.496 0.715t2.871 1.918 1.918 2.871 0.715 3.496q0 1.57-0.512 3.008t-1.457 2.609l5.68 5.672q0.289 0.289 0.289 0.711 0 0.43-0.285 0.715t-0.715 0.285q-0.422 0-0.711-0.289l-5.672-5.68q-1.172 0.945-2.609 1.457t-3.008 0.512q-1.828 0-3.496-0.715t-2.871-1.918-1.918-2.871-0.715-3.496 0.715-3.496 1.918-2.871 2.871-1.918 3.496-0.715zM10 3q-1.422 0-2.719 0.555t-2.234 1.492-1.492 2.234-0.555 2.719 0.555 2.719 1.492 2.234 2.234 1.492 2.719 0.555 2.719-0.555 2.234-1.492 1.492-2.234 0.555-2.719-0.555-2.719-1.492-2.234-2.234-1.492-2.719-0.555z"></path>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-spacer"></div>
+        <!-- HEADER (end) -->
+
+        <!-- SEARCH (start) -->
+        <div class="intro intro-bg-dark">
+            <div class="container">
+                <div class="intro-content-main">
+                    <h1 class="intro-title text-color-white font-secondary" style="width: 100%;">Search results for: "Search query"</h1>
+                </div>
+                <div class="intro-content-additional">
+                    <div class="intro-desc text-color-white font-secondary">X results found</div>
+                </div>
+            </div>
+        </div>
+        <div class="content content-bg-white">
+            <div class="container">
+                <div class="content-column-area content-column-area-wrap content-column-area-wrap-1-3-fill">
+                    <div class="content-column-1-3 content-search-result">
+                        <a class="content-light-link" href="post.html">
+                            <div class="content-article-img-area">
+                                <img class="content-column-1-3-article-img" src="./img/pages/posts/post-image.jpg">
+                                <div class="content-article-img-hover">
+                                    <svg class="content-article-img-hover-icon" viewBox="0 0 3670 3540">
+                                        <path d="M700 3342 c0 -5 16 -27 35 -49 107 -125 346 -432 402 -516 86 -128 175 -305 214 -425 46 -141 46 -241 2 -336 -75 -156 -220 -247 -516 -320 -204 -51 -304 -95 -377 -166 -74 -72 -85 -99 -85 -212 0 -84 -3 -99 -21 -120 -76 -83 -70 -211 14 -291 l28 -27 -56 -112 c-68 -139 -90 -220 -90 -330 0 -144 48 -231 155 -284 144 -70 324 -24 476 123 35 34 38 34 77 22 61 -18 107 -5 155 45 39 41 46 44 107 48 70 6 131 31 167 70 37 40 73 124 85 201 l12 75 27 -29 c50 -53 95 -30 151 78 64 122 98 252 113 428 l7 79 62 -154 c229 -569 517 -891 887 -992 76 -21 105 -23 294 -23 180 1 224 4 305 23 118 27 300 83 300 92 0 4 -26 24 -57 46 -76 52 -222 198 -304 304 -81 104 -195 278 -279 424 -94 164 -310 610 -470 971 -183 413 -324 702 -396 812 -196 302 -534 488 -984 543 -101 12 -440 14 -440 2z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="content-column-1-3-article-title font-secondary">Post title</div>
+                            <div class="content-column-1-3-article-date font-secondary">July 23, 2017</div>
+                        </a>
+                        <div class="content-column-1-3-article-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas libero. Integer malesuada. Etiam posuere lacus quis dolor, fusce suscipit libero elit.</div>
+                    </div>
+                    <div class="content-column-1-3 content-search-result">
+                        <a class="content-light-link" href="post.html">
+                            <div class="content-article-img-area">
+                                <img class="content-column-1-3-article-img" src="./img/pages/posts/post-image.jpg">
+                                <div class="content-article-img-hover">
+                                    <svg class="content-article-img-hover-icon" viewBox="0 0 3670 3540">
+                                        <path d="M700 3342 c0 -5 16 -27 35 -49 107 -125 346 -432 402 -516 86 -128 175 -305 214 -425 46 -141 46 -241 2 -336 -75 -156 -220 -247 -516 -320 -204 -51 -304 -95 -377 -166 -74 -72 -85 -99 -85 -212 0 -84 -3 -99 -21 -120 -76 -83 -70 -211 14 -291 l28 -27 -56 -112 c-68 -139 -90 -220 -90 -330 0 -144 48 -231 155 -284 144 -70 324 -24 476 123 35 34 38 34 77 22 61 -18 107 -5 155 45 39 41 46 44 107 48 70 6 131 31 167 70 37 40 73 124 85 201 l12 75 27 -29 c50 -53 95 -30 151 78 64 122 98 252 113 428 l7 79 62 -154 c229 -569 517 -891 887 -992 76 -21 105 -23 294 -23 180 1 224 4 305 23 118 27 300 83 300 92 0 4 -26 24 -57 46 -76 52 -222 198 -304 304 -81 104 -195 278 -279 424 -94 164 -310 610 -470 971 -183 413 -324 702 -396 812 -196 302 -534 488 -984 543 -101 12 -440 14 -440 2z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="content-column-1-3-article-title font-secondary">Post title</div>
+                            <div class="content-column-1-3-article-date font-secondary">July 23, 2017</div>
+                        </a>
+                        <div class="content-column-1-3-article-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas libero. Integer malesuada. Etiam posuere lacus quis dolor, fusce suscipit libero elit.</div>
+                    </div>
+                    <div class="content-column-1-3 content-search-result">
+                        <a class="content-light-link" href="post.html">
+                            <div class="content-article-img-area">
+                                <img class="content-column-1-3-article-img" src="./img/pages/posts/post-image.jpg">
+                                <div class="content-article-img-hover">
+                                    <svg class="content-article-img-hover-icon" viewBox="0 0 3670 3540">
+                                        <path d="M700 3342 c0 -5 16 -27 35 -49 107 -125 346 -432 402 -516 86 -128 175 -305 214 -425 46 -141 46 -241 2 -336 -75 -156 -220 -247 -516 -320 -204 -51 -304 -95 -377 -166 -74 -72 -85 -99 -85 -212 0 -84 -3 -99 -21 -120 -76 -83 -70 -211 14 -291 l28 -27 -56 -112 c-68 -139 -90 -220 -90 -330 0 -144 48 -231 155 -284 144 -70 324 -24 476 123 35 34 38 34 77 22 61 -18 107 -5 155 45 39 41 46 44 107 48 70 6 131 31 167 70 37 40 73 124 85 201 l12 75 27 -29 c50 -53 95 -30 151 78 64 122 98 252 113 428 l7 79 62 -154 c229 -569 517 -891 887 -992 76 -21 105 -23 294 -23 180 1 224 4 305 23 118 27 300 83 300 92 0 4 -26 24 -57 46 -76 52 -222 198 -304 304 -81 104 -195 278 -279 424 -94 164 -310 610 -470 971 -183 413 -324 702 -396 812 -196 302 -534 488 -984 543 -101 12 -440 14 -440 2z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="content-column-1-3-article-title font-secondary">Post title</div>
+                            <div class="content-column-1-3-article-date font-secondary">July 23, 2017</div>
+                        </a>
+                        <div class="content-column-1-3-article-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas libero. Integer malesuada. Etiam posuere lacus quis dolor, fusce suscipit libero elit.</div>
+                    </div>
+                    <div class="content-column-1-3 content-search-result">
+                        <a class="content-light-link" href="post.html">
+                            <div class="content-article-img-area">
+                                <img class="content-column-1-3-article-img" src="./img/pages/posts/post-image.jpg">
+                                <div class="content-article-img-hover">
+                                    <svg class="content-article-img-hover-icon" viewBox="0 0 3670 3540">
+                                        <path d="M700 3342 c0 -5 16 -27 35 -49 107 -125 346 -432 402 -516 86 -128 175 -305 214 -425 46 -141 46 -241 2 -336 -75 -156 -220 -247 -516 -320 -204 -51 -304 -95 -377 -166 -74 -72 -85 -99 -85 -212 0 -84 -3 -99 -21 -120 -76 -83 -70 -211 14 -291 l28 -27 -56 -112 c-68 -139 -90 -220 -90 -330 0 -144 48 -231 155 -284 144 -70 324 -24 476 123 35 34 38 34 77 22 61 -18 107 -5 155 45 39 41 46 44 107 48 70 6 131 31 167 70 37 40 73 124 85 201 l12 75 27 -29 c50 -53 95 -30 151 78 64 122 98 252 113 428 l7 79 62 -154 c229 -569 517 -891 887 -992 76 -21 105 -23 294 -23 180 1 224 4 305 23 118 27 300 83 300 92 0 4 -26 24 -57 46 -76 52 -222 198 -304 304 -81 104 -195 278 -279 424 -94 164 -310 610 -470 971 -183 413 -324 702 -396 812 -196 302 -534 488 -984 543 -101 12 -440 14 -440 2z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="content-column-1-3-article-title font-secondary">Post title</div>
+                            <div class="content-column-1-3-article-date font-secondary">July 23, 2017</div>
+                        </a>
+                        <div class="content-column-1-3-article-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas libero. Integer malesuada. Etiam posuere lacus quis dolor, fusce suscipit libero elit.</div>
+                    </div>
+                    <div class="content-column-1-3 content-search-result">
+                        <a class="content-light-link" href="post.html">
+                            <div class="content-article-img-area">
+                                <img class="content-column-1-3-article-img" src="./img/pages/posts/post-image.jpg">
+                                <div class="content-article-img-hover">
+                                    <svg class="content-article-img-hover-icon" viewBox="0 0 3670 3540">
+                                        <path d="M700 3342 c0 -5 16 -27 35 -49 107 -125 346 -432 402 -516 86 -128 175 -305 214 -425 46 -141 46 -241 2 -336 -75 -156 -220 -247 -516 -320 -204 -51 -304 -95 -377 -166 -74 -72 -85 -99 -85 -212 0 -84 -3 -99 -21 -120 -76 -83 -70 -211 14 -291 l28 -27 -56 -112 c-68 -139 -90 -220 -90 -330 0 -144 48 -231 155 -284 144 -70 324 -24 476 123 35 34 38 34 77 22 61 -18 107 -5 155 45 39 41 46 44 107 48 70 6 131 31 167 70 37 40 73 124 85 201 l12 75 27 -29 c50 -53 95 -30 151 78 64 122 98 252 113 428 l7 79 62 -154 c229 -569 517 -891 887 -992 76 -21 105 -23 294 -23 180 1 224 4 305 23 118 27 300 83 300 92 0 4 -26 24 -57 46 -76 52 -222 198 -304 304 -81 104 -195 278 -279 424 -94 164 -310 610 -470 971 -183 413 -324 702 -396 812 -196 302 -534 488 -984 543 -101 12 -440 14 -440 2z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="content-column-1-3-article-title font-secondary">Post title</div>
+                            <div class="content-column-1-3-article-date font-secondary">July 23, 2017</div>
+                        </a>
+                        <div class="content-column-1-3-article-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas libero. Integer malesuada. Etiam posuere lacus quis dolor, fusce suscipit libero elit.</div>
+                    </div>
+                    <div class="content-column-1-3 content-search-result">
+                        <a class="content-light-link" href="post.html">
+                            <div class="content-article-img-area">
+                                <img class="content-column-1-3-article-img" src="./img/pages/posts/post-image.jpg">
+                                <div class="content-article-img-hover">
+                                    <svg class="content-article-img-hover-icon" viewBox="0 0 3670 3540">
+                                        <path d="M700 3342 c0 -5 16 -27 35 -49 107 -125 346 -432 402 -516 86 -128 175 -305 214 -425 46 -141 46 -241 2 -336 -75 -156 -220 -247 -516 -320 -204 -51 -304 -95 -377 -166 -74 -72 -85 -99 -85 -212 0 -84 -3 -99 -21 -120 -76 -83 -70 -211 14 -291 l28 -27 -56 -112 c-68 -139 -90 -220 -90 -330 0 -144 48 -231 155 -284 144 -70 324 -24 476 123 35 34 38 34 77 22 61 -18 107 -5 155 45 39 41 46 44 107 48 70 6 131 31 167 70 37 40 73 124 85 201 l12 75 27 -29 c50 -53 95 -30 151 78 64 122 98 252 113 428 l7 79 62 -154 c229 -569 517 -891 887 -992 76 -21 105 -23 294 -23 180 1 224 4 305 23 118 27 300 83 300 92 0 4 -26 24 -57 46 -76 52 -222 198 -304 304 -81 104 -195 278 -279 424 -94 164 -310 610 -470 971 -183 413 -324 702 -396 812 -196 302 -534 488 -984 543 -101 12 -440 14 -440 2z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="content-column-1-3-article-title font-secondary">Post title</div>
+                            <div class="content-column-1-3-article-date font-secondary">July 23, 2017</div>
+                        </a>
+                        <div class="content-column-1-3-article-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas libero. Integer malesuada. Etiam posuere lacus quis dolor, fusce suscipit libero elit.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content content-bg-dark">
+            <div class="container">
+                <div class="content-pagination-area">
+                    <div class="content-pagination-column-1-3 mobile-order-3">
+                        <a class="button button-size-medium button-border-light float-left mobile-nofloat mobile-text-align-center-noparent" href="search.html">Prev page</a>
+                    </div>
+                    <div class="content-pagination-column-1-3 mobile-order-1 mobile-margin-bottom-40">
+                        <div class="content-pagination-column-1-3-stats text-color-white vertical-center text-align-center">Showing page 1 of X</br>Total number of results: X</div>
+                    </div>
+                    <div class="content-pagination-column-1-3 mobile-order-2 mobile-margin-bottom-20-nolast">
+                        <a class="button button-size-medium button-border-light float-right mobile-nofloat mobile-text-align-center-noparent" href="search.html">Next</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SEARCH (end) -->
+
+        <!-- FOOTER (start) -->
+        <div class="footer">
+            <div class="footer-content">
+                <div class="footer-logo-area">
+                    <a href="index.html">
+                        <img class="footer-logo" src="./img/logo/logo-bw-text.png"></img>
+                    </a>
+                    <div class="footer-copyright">
+                        <a href="http://bartosjiri.com" target="_blank">© 2017 bartosjiri</a>
+                    </div>
+                </div>
+                <div class="footer-social-area">
+                    <a class="footer-social" href="search.html">Link</a>
+                    <a class="footer-social" href="search.html">Link</a>
+                    <a class="footer-social" href="search.html">Link</a>
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER (end) -->
+
+    </main>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
