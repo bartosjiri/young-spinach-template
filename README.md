@@ -8,7 +8,7 @@ A HTML template for blogs, previously used as a Wordpress theme for the disconti
 
 ## Preview
 
-`TBD`
+![Young Spinach theme](https://i.imgur.com/xIlZkGW.png)
 
 ## How to use
 
