@@ -2,8 +2,6 @@
 
 A HTML template for blogs, previously used as a Wordpress theme for the discontinued Young Spinach project.
 
-**Live demo available [here](http://youngspinach.com).**
-
 *Fun fact: This was the first piece of code I have ever written.*
 
 ## Preview
